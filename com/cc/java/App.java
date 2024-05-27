@@ -1,12 +1,12 @@
 package com.cc.java;
 
-public class App {
+public class App {  // Klasse
     
     public static void main(String[] args) {
 
         Cat cat = new Cat("Grizabella", "white", 29);
 
-        output(cat.getStringAttributes("#name"));
+        output(cat.getStringAttributes("#name")); // Methode
         output(cat.getStringAttributes("#color"));
 
         output(cat.getAge()); 
@@ -17,7 +17,7 @@ public class App {
 
         output("-------------------------");
 
-        Tomcat tomcat = new Tomcat("Alonzo", "grey", 35);
+        Tomcat tomcat = new Tomcat("Alonzo", "grey", 35); // Objekterzeugung
 
         output(tomcat.getStringAttributes("#name"));
         output(tomcat.getStringAttributes("#color"));
